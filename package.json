@@ -1,0 +1,13 @@
+{
+    "name": "lfgamers_server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently \"cd server && npm run dev\"  \"cd frontend && npm run dev\"",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
